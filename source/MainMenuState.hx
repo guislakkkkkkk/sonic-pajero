@@ -201,6 +201,7 @@ class MainMenuState extends MusicBeatState
 				if (optionShit[curSelected] == 'pajero')
 				{
 					FlxG.sound.play(Paths.sound('masturbasuceso'));
+					PlayState.storyPlaylist = ['masturbasuceso'];
 				}
 				else
 				{

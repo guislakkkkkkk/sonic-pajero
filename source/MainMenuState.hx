@@ -198,7 +198,7 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'pajero')
+				if (optionShit[curSelected] == 'paero')
 				{
 					FlxG.sound.play(Paths.sound('masturbasuceso'));
 				}

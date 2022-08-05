@@ -198,12 +198,6 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'donate')
-				{
-					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
-				}
-				else
-				{
 				if (optionShit[curSelected] == 'pajero')
 				{
 					FlxG.sound.play(Paths.sound('masturbasuceso'));

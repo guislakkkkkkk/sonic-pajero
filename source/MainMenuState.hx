@@ -230,6 +230,7 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'pajero':
+										FlxG.sound.play(Paths.sound('masturbasuceso'));
 										PlayState.storyPlaylist = ['masturbasuceso'];
 										PlayState.isStoryMode = false;
 

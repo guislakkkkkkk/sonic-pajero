@@ -234,7 +234,7 @@ class MainMenuState extends MusicBeatState
 										PlayState.storyPlaylist = ['masturbasuceso'];
 										PlayState.isStoryMode = false;
 
-										PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + '-normal', PlayState.storyPlaylist[0].toLowerCase());
+										PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + '-pajero', PlayState.storyPlaylist[0].toLowerCase());
 										PlayState.campaignScore = 0;
 										PlayState.campaignMisses = 0;
 										LoadingState.loadAndSwitchState(new PlayState(), true);

@@ -231,8 +231,9 @@ class MainMenuState extends MusicBeatState
 								{
 									case 'pajero':
 										FlxG.sound.play(Paths.sound('masturbasuceso'));
+			  			  			        changeItem(1);
 										PlayState.storyPlaylist = ['masturbasuceso'];
-										PlayState.isStoryMode = false;
+										PlayState.isStoryMode = true;
 
 										PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + '-pajero', PlayState.storyPlaylist[0].toLowerCase());
 										PlayState.campaignScore = 0;
